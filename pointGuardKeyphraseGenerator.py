@@ -5,10 +5,6 @@ import sys
 # letters, using any list of words as input. These phrases can be used as 
 # keys in a simple cipher for numerical combinations.
 
-# Based on a system invented by Donald McLeod Vince Gayton Sr., my great-
-# grandfather, to document the combination locks on his luggage, and passed
-# down through four generations to me.
-
 # Open the input file (passed as the argument to the script)
 with open(sys.argv[1]) as f:
   words = f.readlines()
